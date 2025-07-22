@@ -1,0 +1,60 @@
+body{
+   display: flex;
+   flex-direction: column;
+   font-size: 16px;
+}
+
+.heading{
+   display: flex;
+   flex-direction: column;
+}
+
+.heading .title{
+   font-size: 32px;
+}
+.heading .round{
+   font-size: 24px;
+}
+.game{
+   display: flex;
+}
+.computer{
+   display: flex;
+}
+.human{
+   display:flex;
+}
+.result{
+   display: flex;
+   flex-direction: column;
+}
+.next{
+   display:flex;
+}
+
+.rpsImg{
+   object-fit: contain;
+   height: 100%;
+   width: 100%;
+   
+}
+.btnImg{
+   border-radius: 50%;
+   padding: 0%;
+   overflow: hidden;
+   height: 60px;
+   width: 60px;
+}
+.btnImg.Hum:active{
+   outline:none;
+   box-shadow: 0 0 0 4px blue;
+}
+
+.icon .image img{
+   height: 100px;
+   width: 100px;
+}
+
+.next button{
+   font-size: 24px;
+}
